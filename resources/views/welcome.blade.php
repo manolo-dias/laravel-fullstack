@@ -101,7 +101,7 @@
                         </div>
                     </div>
 
-                    <button type="button" onclick="handleAddItemCart()">
+                    <button type="button" class="bg-blue-500 text-white  px-4 py-2 rounded" onclick="handleAddItemCart()">
                         Adicionar Item
                     </button>
                 </div>
@@ -181,10 +181,11 @@
                             </div>
                             <button class="remove bg-red-500 text-white px-4 py-2 rounded">Remover</button>
                         </div>
+                        <button id="closePopup" type="submit" class="bg-blue-500 text-white w-fit px-4 py-2 rounded">Enviar
+                        </button>
                     </script>
 
-                    <button id="closePopup" type="submit" class="bg-red-500 text-white px-4 py-2 rounded">Fechar
-                    </button>
+
 
                 </div>
             </div>

@@ -13,6 +13,7 @@ class CheckoutController
             Checkout::create($data);
             return redirect()->route('checkout.index')->with('success', 'Checkout criado com sucesso!');
         }catch (\Exception $exception){
+            return redirect()->route('checkout.index')->with('erro', 'Erro ao criar o checkout!');
 
         }
 
