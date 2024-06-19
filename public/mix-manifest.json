@@ -2,5 +2,6 @@
     "/js/dashboard.js": "/js/dashboard.js",
     "/js/customer.js": "/js/customer.js",
     "/js/product.js": "/js/product.js",
+    "/js/alert.js": "/js/alert.js",
     "/css/styles.css": "/css/styles.css"
 }
